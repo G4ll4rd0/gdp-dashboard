@@ -80,7 +80,7 @@ max_value = gdp_df['Year'].max()
 
 from_year, to_year = st.slider(
     'Which years are you interested in?',
-    min_value=min_value,
+    min_value=2000,
     max_value=max_value,
     value=[min_value, max_value])
 
